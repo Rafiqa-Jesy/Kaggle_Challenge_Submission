@@ -46,7 +46,7 @@ XGBoost didn’t provide substantial improvements and required fine-tuning, whic
 I couldn't make it work with LIGHTGBM, so I stopped working with that in midway. I didn't submit that version, I started working with CatBoost instead.
 
 
-7. Challenges Faced:
+Challenges Faced:
 Missing Data Handling: Handling missing data was tricky, especially for the Cabin column, where dropping it seemed like the best option, though this led to the loss of valuable information.
 
 Model Overfitting: Even with Random Forest, the model was prone to overfitting. I worked to address this by fine-tuning hyperparameters, but it still wasn’t perfect.
